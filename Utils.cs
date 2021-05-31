@@ -44,7 +44,6 @@ namespace Kursach
         public static void createWallsFromLines(Document doc)
         {
 
-           // FilteredElementCollector collector = new FilteredElementCollector(doc, doc.ActiveView.Id).WherePasses(new ElementClassFilter(typeof(CurveElement)));
 
             using (Transaction tx = new Transaction(doc))
             {
